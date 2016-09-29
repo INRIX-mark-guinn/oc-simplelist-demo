@@ -107,20 +107,20 @@ define(function (require) {
                         list.set('orientation', 'horizontal');
                     }
                 }));
+                // p.addChild(new Button({
+                //     model: {
+                //         text: 'Scroll'
+                //     },
+                //     click() {
+                //         list.set('scroll', ScrollingViewport); //'item');
+                //     }
+                // }));
                 p.addChild(new Button({
                     model: {
                         text: 'Scroll'
                     },
                     click() {
-                        list.set('scroll', ScrollingViewport); //'item');
-                    }
-                }));
-                p.addChild(new Button({
-                    model: {
-                        text: 'Center'
-                    },
-                    click() {
-                        list.set('scroll', 'center');
+                        list.set('scroll', 'item');
                     }
                 }));
                 p.addChild(new Button({
