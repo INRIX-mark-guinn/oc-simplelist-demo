@@ -1,6 +1,6 @@
-# SimpleList Example App
+# New List Example App
 
-This app can be run to demonstrate the progress of the new SimpleListControl. It gives you
+This app can be run to demonstrate the progress of the new ListControl. It gives you
 a grid that you can "reconfigure" in real-time via some buttons at the top.
 
 ## Installation
@@ -13,15 +13,12 @@ a grid that you can "reconfigure" in real-time via some buttons at the top.
 
 ## Caveats
 
-* All the CSS is currently in this app. That will of course get moved to the framework and profile as appropriate.
-* This has not yet been tested in O2 and Carbon. Should work fine? If not, try Oxygen.
+* You must test this in Oxygen. CSS has not been ported to Hydrogen, Carbon, or O2 yet.
 
 ## TODO
 
-* Touch events are not yet working
-* Scrollbar and "page dots" control
-* ListControl subclass that will add data chunking (lazy-loading) and integration with scrollbars
-* ListChamber
-* Profile CSS implementations
+* "page dots" control (alternative to scrollbar)
+* Data chunking (lazy-loading)
+* Other profile CSS implementations
 * Refactoring legacy controls to use this component
 * Cucumber coverage

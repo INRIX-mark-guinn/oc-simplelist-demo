@@ -1,6 +1,6 @@
 {
-    "id"          : "sdk.test.simplelist",
-    "name"        : "SimpleList Test",
+    "id"          : "sdk.test.list",
+    "name"        : "List Test",
     "css"         : [ "appStylesheet.css" ],
     "view"        : "appView.js",
     "permissions" : [  ],
